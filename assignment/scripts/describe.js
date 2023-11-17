@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called 'Dane'
+// created an if statement, if the name is equal to Mary, console.log it to say "Hi, Mary!"
+// if not Mary, console.log "how do you do?"
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Created a variable called 'secret' and a variable called 'code' and set code equal to the value of 123.
+// Created an if statement that if the code is equal to exact value of 123, change the value of secret to 'super' and
+// change the value of code to code * 2
+//then we made another if statement if code is more than 250, change the value of secret to 'duper'
+//then we console logged secret
 
 //CODE
 /*
@@ -70,10 +71,20 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// created a variable 'isStudent' set it to true
+// created another variable 'age' and set to 34
+// created another variable 'zip' set to 55407
+
+//created an if statement stating that if isStudent is equal to true and zip is more than 80000,
+//console.log 'you're a student on the West Coast!'
+
+//Created an else if statement if isStudent is equal to false and less than 30, 
+//console.log 'what are your hobbies?'
+
+//Created another else if statement, isStudent value of true console.log 'Welcome to Prime!'
+
+//Created else statment for any other answers that don't fit isStudent requirements,
+//console.log 'How about the weather?'
 
 //CODE
 /*
@@ -129,6 +140,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//FIX -- The value of colorOne and colorTwo are not correct. A solution would be to have colorOne set to
+//the value of 'blue' as the instructions suggest and the value of colorTwo to the value of red.
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +157,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//FIX -- I would make sure that we say that the time variable is a constant. 
+
 /*
 let temp = 40;
 const time = 4;
@@ -155,6 +171,9 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+// FIX -- I would clarify that minAge is a const.
+//line 173 should say lesser than or equal instead of "greater than".
 
 /*
 let age = 21;
