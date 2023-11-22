@@ -29,7 +29,9 @@ if (number >= 2) {
 // We create a variable called 'Dane'
 // created an if statement, if the name is equal to Mary, console.log it to say "Hi, Mary!"
 // if not Mary, console.log "how do you do?"
-//
+
+//Once the code runs it will detect that the name is not equal to 'Dane' and use the else portion to
+//log 'How do you do?' in console.
 
 //CODE
 /*
@@ -50,6 +52,9 @@ if (name === 'Mary') {
 // change the value of code to code * 2
 //then we made another if statement if code is more than 250, change the value of secret to 'duper'
 //then we console logged secret
+
+//Once the code runs it will detect that code is equal to '123' will set secret to value of 'super' and it will
+ //multiply '123 * 2'. The console will read 'super'. 
 
 //CODE
 /*
@@ -85,6 +90,10 @@ console.log(secret)
 
 //Created else statment for any other answers that don't fit isStudent requirements,
 //console.log 'How about the weather?'
+
+//Once the code runs it will detect that the 'isStudent is true and will fail
+//the zip code test. will fail the next else if code. will pass the next else if statement. 
+//console.log should read 'Welcome to prime'.
 
 //CODE
 /*
